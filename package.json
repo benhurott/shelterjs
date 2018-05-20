@@ -1,0 +1,22 @@
+{
+  "name": "shelterjs",
+  "version": "0.2.0",
+  "description": "A simple state container management for js projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benhurott/shelterjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benhurott/shelterjs/issues"
+  },
+  "homepage": "https://github.com/benhurott/shelterjs#readme",
+  "devDependencies": {
+    "jest": "^22.4.4"
+  }
+}
