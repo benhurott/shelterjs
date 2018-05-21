@@ -85,7 +85,10 @@ myObserverInstance.dispose()
 myContainer.myProp1.setValue('the new value')
 ```
 
-## Changelog
+### Creating properties at runtime
+If you want to add new properties to a existing container, use the `createProperty` function:
+```js
+myContainer.createProperty('foo', 'initial value')
 
-### 0.2.0
-* First release o/
+console.log(myContainer.foo.getValue()) // initial value
+```
