@@ -1,6 +1,6 @@
 {
   "name": "shelterjs",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "A simple state container management for js projects.",
   "main": "index.js",
   "scripts": {

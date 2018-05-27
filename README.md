@@ -80,6 +80,11 @@ const myObserverInstance = myContainer.myProp1.observe(value => {
 myObserverInstance.dispose()
 ```
 
+### Remove all observers from prop:
+```js
+myContainer.myProp1.removeAllObservers()
+```
+
 ### Change value in container
 ```js
 myContainer.myProp1.setValue('the new value')

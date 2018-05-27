@@ -1,5 +1,5 @@
-## [0.4.1] - 2018-may-26
-* Adding tags to package.json
+## [0.4.2] - 2018-may-26
+* Updating docs.
 
 ## [0.4.0] - 2018-may-26
 * Adding `removeAllObservers`
