@@ -1,6 +1,6 @@
 {
   "name": "shelterjs",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A simple state container management for js projects.",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,15 @@
   },
   "author": "",
   "license": "ISC",
+  "keywords": [
+    "container",
+    "state",
+    "redux",
+    "management",
+    "simple",
+    "event",
+    "javascript"
+  ],
   "bugs": {
     "url": "https://github.com/benhurott/shelterjs/issues"
   },
