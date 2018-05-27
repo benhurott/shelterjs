@@ -1,3 +1,6 @@
+## [0.4.1] - 2018-may-26
+* Adding tags to package.json
+
 ## [0.4.0] - 2018-may-26
 * Adding `removeAllObservers`
 
