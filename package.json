@@ -1,10 +1,11 @@
 {
   "name": "shelterjs",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A simple state container management for js projects.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",

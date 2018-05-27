@@ -1,3 +1,6 @@
+## [0.4.0] - 2018-may-26
+* Adding `removeAllObservers`
+
 ## [0.3.0] - 2018-may-21
 * Adding `createProperty`
 

@@ -58,3 +58,19 @@ test('observe for previousValue returns 2', () => {
 
     container.val.setValue(3)
 })
+
+test('remove all observers must delete all handlers', () => {
+    const container = new Container({
+        props: {
+            val: 1
+        }
+    })
+
+    container.val.observe(val => { })
+
+    expect(Object.keys(container.val._observers).length).toBe(1)
+
+    container.val.removeAllObservers()
+
+    expect(Object.keys(container.val._observers).length).toBe(0)
+})
